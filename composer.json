@@ -1,22 +1,18 @@
 {
     "name": "damingpack/qywx",
     "description": "qywx",
-    "type": "library",
-    "license": "mit",
     "authors": [
         {
             "name": "DaMing",
             "email": "3228985941@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": "true",
     "require": {
         "php": ">=7.0"
     },
     "autoload": {
         "psr-4": {
-            "model\\": "model"
+            "qywx": "qywx"
         }
     }
 }
